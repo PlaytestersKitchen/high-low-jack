@@ -16,3 +16,6 @@ class Deck:
             self.cards_in_play.append(card)
             drawn_cards.append(card)
         return drawn_cards
+    
+    def collect(self):
+        self.cards += self.cards_in_play

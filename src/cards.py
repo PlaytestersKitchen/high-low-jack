@@ -31,8 +31,8 @@ cards = []
 for suit in suits:
     for value in values:
         cards.append({
-                'name': '{0} of {1}'.format(value, suit)
+                'name': '{0} of {1}'.format(value, suit),
                 'suit': suit,
                 'value': value,
-                'game_points': game_point_values[value],
+                'game_points': game_point_values[value]
         })
