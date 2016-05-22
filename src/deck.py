@@ -19,3 +19,4 @@ class Deck:
     
     def collect(self):
         self.cards += self.cards_in_play
+        self.cards_in_play = []
